@@ -1,0 +1,7 @@
+{
+  "setup-files": [
+  ],
+  "rules":[
+    { "rule": "text", "separator":"-", "width":120, "heading":"CREATING TAGS", "double-space":true}
+  ]
+}
