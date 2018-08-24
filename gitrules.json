@@ -2,6 +2,9 @@
   "setup-files": [
   ],
   "rules":[
-    { "rule": "text", "separator":"-", "width":120, "heading":"CREATING TAGS", "double-space":true}
+    { "rule": "text", "separator":"-", "width":120, "heading":"CREATING TAGS", "double-space":true},
+    { "rule": "tag-exists", "tag":"first-tag", "score-if-correct":20 },
+    { "rule": "commit-with-message-has-tag", "tag":"second-tag", "contents":"Add initial product file", "ignore-case":true, "score-if-correct":30 },
+    { "rule": "tagged-commit-added-text-to-file", "tag":"edam-tag", "contents":"Edam", "path":"files/products.txt", "ignore-case":true, "score-if-correct":50 }
   ]
 }

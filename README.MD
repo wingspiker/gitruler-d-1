@@ -26,21 +26,21 @@ For more information on running gitruler look at the [project repository](https:
 
 ## Tagging commits
 
-1. Tag HEAD, the current commit with the name "first-tag".
+1. Tag HEAD, the current commit, with the name "first-tag".
 
 ## Viewing at the git history log
 
-2. Look at the git history log to find the commit with the message "This is the second commit that you need to tag"
+2. Look at the git history log to find the commit with the message "Add initial product file".
 3. Check out that commit
 4. Tag that commit with the name "second-tag".
 5. Check out the latest commit on the master branch.
 
 ## Comparing commits 
 
-1. Look at the git history log for the file `chinese-years.txt`
-2. Compare each commit to its previous one (its parent commit) to find which commit added the line "1978: Horse".
-3. Check out that commit
-4. Tag it with the name "1978-tag"
+1. Look at the git history log for the file `files/products.txt`.
+2. Compare each commit in that log to the previous one to find which commit added the line "Edam".
+3. Check out that commit.
+4. Tag it with the name "edam-tag"
 
 ## Submitting the results
 
@@ -56,3 +56,4 @@ The following are example of the many free resources that will explain how to pe
 2. Viewing the git history log [https://githowto.com/history](https://githowto.com/history)
 3. Checking out a commit or the latest commit on master [https://github.com/francopestilli/life/wiki/Switch-to-a-previous-state-of-the-repository](https://github.com/francopestilli/life/wiki/Switch-to-a-previous-state-of-the-repository)
 4. Viewing the changes to a file made by a commit: It's easy to Google for this. You will need to learn to use the [diff](https://www.atlassian.com/git/tutorials/saving-changes/git-diff) command.
+5. You may need to research a little on how to understand the output of a `git diff` command. Example resources are [here](https://medium.com/therobinkim/how-to-read-a-git-diff-6c87a9dc47c5) and [here](https://www.atlassian.com/git/tutorials/saving-changes/git-diff) or Google specifically for what you need to know.
