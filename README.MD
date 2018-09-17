@@ -4,28 +4,13 @@ Marked Style: Github
 
 # GitRuler Section D
 
-This repository is section D of the [GitRuler exercises](https://github.com/UOL-CS/gitruler-exercises).
+This repository is section C of the [GitRuler exercises](https://github.com/UOL-CS/gitruler-exercises). If you do not already have a your own repository for these exercises [fork this repository](https://help.github.com/articles/fork-a-repo/). 
 
 In this exercise we will learn about tagging and viewing differences between commits and files within the repository history
 
-## Introduction
-
-If you do not already have a your own repository for these exercises [fork this repository](https://help.github.com/articles/fork-a-repo/). Clone this repository
-
-At any time you can run gitruler to check your progress. From the command line run:
-
-`java -jar <path to gitruler.jar>`
-
-For more information on running gitruler look at the [project repository](https://github.com/rcraggs/gitruler).
-
-## Instructions
-
-1. After cloning the repository change into the directory on a [command line](https://www.techopedia.com/definition/3337/command-line-interface-cli).
-2. Run gitruler to initialise the exercise.
-
-
 ## Tagging commits
 
+1. Run GitRuler to initialise the exercise.
 1. Tag HEAD, the current commit, with the name "first-tag".
 
 ## Viewing at the git history log
@@ -38,7 +23,7 @@ For more information on running gitruler look at the [project repository](https:
 ## Comparing commits 
 
 1. Look at the git history log for the file `files/products.txt`.
-2. Compare each commit in that log to the previous one to find which commit added the line "Edam".
+2. Compare each commit in that log to the previous one to find the commit that added the line "Edam".
 3. Check out that commit.
 4. Tag it with the name "edam-tag"
 
